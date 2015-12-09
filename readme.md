@@ -232,7 +232,7 @@ If you'd like a bit more guidance, read on.
             - If it is not, throw an `InvalidSymbolError`
         - For however many elements there ought to be (as defined by the `SIZE`
           template parameter), do the following:
-            - Try to read a single component of the point into the appropariate
+            - Try to read a single component of the point into the appropriate
               position of the `components_` array
             - Test the input stream to make sure no errors occurred
                 - If an error did occur, clear the error, and throw an invalid
