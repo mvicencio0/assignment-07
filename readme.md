@@ -177,7 +177,7 @@ ERROR: unable to read first element (unable to read value)
 - The "source code line" numbers are obtained by using the `__LINE__` macro.
 
 - The input file stream positions are obtained by calling the `tellg` method on
-  the input stream (i.e. `infile.gellg()`).
+  the input stream (i.e. `infile.tellg()`).
 
 - Because it seems like a good practice, the error messages are output to
   `cerr` rather than `cout`.  If you can, it would be good to do this in your
